@@ -8,7 +8,7 @@ class Shader
 public:
 	Shader(const std::string& filename);
 	~Shader();
-	void Bind();
+	void bind();
 private:
 	std::string loadShader(const std::string& filename);
 	void checkShaderError(GLuint shader, GLuint flag, bool isProgram,
