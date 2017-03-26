@@ -39,4 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="res\basic_shader.frag" />
+    <None Include="res\basic_shader.vert" />
+    <None Include="SDL2.dll" />
+  </ItemGroup>
 </Project>
